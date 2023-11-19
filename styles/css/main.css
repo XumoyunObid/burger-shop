@@ -1,1 +1,68 @@
-/*# sourceMappingURL=main.css.map */
+.burger {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.burger * {
+  position: relative;
+}
+.burger .top {
+  margin-bottom: -30px;
+}
+.burger .bottom {
+  margin-top: -30px;
+}
+.burger *:not(.bread) {
+  margin-top: -120px;
+}
+.burger .cheese {
+  margin-top: -70px;
+  margin-bottom: -70px;
+}
+.burger .tomato {
+  margin-top: -60px;
+}
+.burger .onion {
+  margin-top: -60px;
+}
+.burger .meat {
+  margin-top: -60px;
+}
+.burger .letuce {
+  margin-top: -100px;
+  margin-bottom: -20px;
+}
+.burger .bacon {
+  margin-top: -60px;
+  margin-bottom: -10px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+  color: black;
+}
+.wrapper .ordered {
+  width: 15%;
+}
+.wrapper .price {
+  width: 45%;
+}
+.wrapper .ordered-time {
+  width: 40%;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  border: white !important;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  border-color: black !important;
+}/*# sourceMappingURL=main.css.map */
