@@ -51,8 +51,6 @@ orderBtn.addEventListener("click", () => {
     burgerWrapper.append(topBread);
 
     total.innerHTML = 2;
-
-    localStorage.setItem("other", "ortiqcha");
 });
 
 let modeBtn = document.querySelector(".modeBtn");
